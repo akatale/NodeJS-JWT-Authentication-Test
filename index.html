@@ -35,7 +35,7 @@
         var token = '';
         
         function login() {
-            history.pushState(null,null,'login');
+            history.pushState(null,null,'/api/login');
             const data = {
                 username: document.getElementById('username').value,
                 password: document.getElementById('password').value,
